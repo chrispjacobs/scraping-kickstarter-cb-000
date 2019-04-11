@@ -11,7 +11,7 @@ def create_project_hash
   # title: project.css("h2.bbcard_name strong a")
   # image link: project.css("div.project-thumbnail a img").attribute("src").value
   # description: project.css("p.bbcard_blurb").text
-  # project location: project.css("#location-name")
+  # project location: project.css("div.project-meta li")
 end
 
 create_project_hash
